@@ -1,7 +1,6 @@
 import React from "react";
+import { Header } from "semantic-ui-react";
 
-const Home: React.FC = () => (
-  <h1>Welcome to your PWA!</h1>
-);
+const Home: React.FC = () => <Header icon='home' content='Welcome to your PWA!'/>
 
 export default Home;
